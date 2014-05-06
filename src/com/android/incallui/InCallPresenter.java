@@ -551,6 +551,9 @@ public class InCallPresenter implements CallList.Listener {
     public void onUiShowing(boolean showing) {
         // We need to update the notification bar when we leave the UI because that
         // could trigger it to show again.
+        Settings.System.putInt(mContext.getContentResolver(),
+                Settings.System.DIALPAD_STATE, showing ? 1 : 0);
+
         if (mStatusBarNotifier != null) {
             mStatusBarNotifier.updateNotification(mInCallState, mCallList);
         }
