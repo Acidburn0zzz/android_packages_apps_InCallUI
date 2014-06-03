@@ -125,4 +125,22 @@
 
     <!-- Dimensions for Video Call Panel -->
     <dimen name="indicator_bar_width">38dp</dimen>
+
+    <!-- Text dimensions for dialpad keys -->
+    <dimen name="dialpad_key_numbers_size">40sp</dimen>
+    <dimen name="dialpad_key_letters_size">13sp</dimen>
+    <dimen name="dialpad_key_star_size">26sp</dimen>
+    <dimen name="dialpad_key_pound_size">26sp</dimen>
+    <dimen name="dialpad_key_numbers_width">30dp</dimen>
+    <dimen name="dialpad_key_letters_width">50dp</dimen>
+    <dimen name="dialpad_key_height">56dp</dimen>
+    <dimen name="dialpad_key_plus_size">18sp</dimen>
+    <dimen name="dialpad_number_to_letters_padding">11dp</dimen>
+    <dimen name="dialpad_horizontal_padding">5dp</dimen>
+
+    <!-- Height of translucent shadow effect -->
+    <dimen name="translucent_shadow_height">2dp</dimen>
+
+    <!-- Dimensions for Video Call Panel -->
+    <dimen name="indicator_bar_width">38dp</dimen>
 </resources>

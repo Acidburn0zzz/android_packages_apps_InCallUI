@@ -52,8 +52,17 @@
     <!-- Button background -->
     <color name="button_background">#000000</color>
 	
-	<!-- Colors from card_call_incoming in layout -->
+    <!-- Colors from card_call_incoming in layout -->
     <color name="card_call_incoming_contact_name">#FF333333</color>
-	<color name="card_call_incoming_separator">#FF888888</color>
-	<color name="card_call_incoming_answer_reject">#FF000000</color>
+    <color name="card_call_incoming_separator">#FF888888</color>
+    <color name="card_call_incoming_answer_reject">#FF000000</color>
+
+    <!-- Background color of action bars -->
+    <color name="actionbar_background_color">#3B77E7</color>
+
+    <!-- Secondary color of dialpad text (used for the letters corresponding to each digit -->
+    <color name="dialpad_secondary_text_color">#8b8b8b</color>
+
+    <!-- Translucent shadow color -->
+    <color name="translucent_shadow">#33999999</color>
 </resources>
