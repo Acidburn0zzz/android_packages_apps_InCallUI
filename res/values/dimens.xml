@@ -140,7 +140,4 @@
 
     <!-- Height of translucent shadow effect -->
     <dimen name="translucent_shadow_height">2dp</dimen>
-
-    <!-- Dimensions for Video Call Panel -->
-    <dimen name="indicator_bar_width">38dp</dimen>
 </resources>
